@@ -1,2 +1,16 @@
-# fraud-detection-ml
-Projeto focado em solucionar o desbalanceamento severo de dados financeiros. Utiliza Python e bibliotecas como Scikit-Learn e XGBoost. O pipeline abrange desde o tratamento com SMOTE até a otimização de hiperparâmetros via GridSearchCV, priorizando a métrica Recall (0.78) para reduzir prejuízos por fraudes não detectadas.
+# Detecção de Fraude em Cartão de Crédito
+
+Este projeto utiliza Machine Learning para identificar transações fraudulentas, focando na otimização do **Recall** para garantir a segurança financeira.
+
+## 🚀 Tecnologias
+* Python, Pandas e Scikit-learn
+* XGBoost para classificação avançada
+* SHAP para explicabilidade do modelo
+
+## 📊 Principais Resultados
+* **Recall:** 0.78 (Foco na detecção da fraude)
+* **Precision:** 0.93 (Baixo índice de alarmes falsos)
+
+## 🛠️ Como rodar
+1. Instale as dependências: `pip install -r requirements.txt`
+2. Abra o notebook em `notebooks/Deteccao_Fraude_Cartao.ipynb`
